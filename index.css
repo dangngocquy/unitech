@@ -1,0 +1,42 @@
+/* font chữ lato */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* kích thước chuẩn */
+@import url('./css/desktop-styles.css');
+/* kích thước dành cho mobile */
+@import url('./css/mobile-styles.css');
+/* kích thước cho máy tính bảng, tablet*/
+@import url('./css/tablet-styles.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: DM Sans, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #28304c;
+}
+
+a {
+  text-decoration: none
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container-unitech {
+  margin: 0 auto;
+}

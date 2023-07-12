@@ -1,0 +1,235 @@
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .unitech-container-banner {
+        flex-direction: column;
+    }
+
+    .unitech-banner2 {
+        display: none;
+    }
+
+    .unitech-container-img {
+        margin: 5px;
+    }
+
+    .unitech-container-img img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .unitech-top {
+        font-size: 14px;
+    }
+
+    .unitech-reponsive-footer {
+        display: grid;
+        grid-template-areas:
+            'footer-content1 footer-content1'
+            'footer-content2 footer-content2'
+            'footer-content3 footer-content3'
+            'footer-content4 footer-content4'
+            'footer-content5 footer-content5'
+            'footer-content6  footer-content6'
+            'footer-content7 footer-content7';
+    }
+
+    .slider-Banner-unitech img {
+        max-width: 100%;
+    }
+
+    .slide__product {
+        max-width: calc(100% / 5 - -102px);
+    }
+
+    .list-link {
+        padding: 2rem 0 2rem 2rem;
+        display: grid;
+        grid-row-gap: 2rem;
+        grid-template-areas: "san-pham thong-tin-chinh-sach"
+            "dich-vu-va-thong-tin-khac bao-hanh";
+    }
+
+    .header-container-footer {
+        padding: 1rem;
+    }
+
+    .unitech-reponsive-part3 {
+        padding: 2rem;
+    }
+
+    .unitech-reponsive-part6 {
+        padding: 1rem;
+    }
+
+    .unitech-reponsive-part5 {
+        padding: 2rem;
+    }
+
+    .unitech-reponsive-part7 {
+        padding: 1rem;
+    }
+
+    .unitech-reponsive-part6-container {
+        flex-direction: column;
+    }
+
+    .unitech-logo-pc {
+        display: none;
+    }
+
+    .unitech-logo-mobile {
+        display: block;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .NumberPhone-mobile {
+        display: none;
+    }
+
+    .unitech-dropdown-icon-mobile {
+        display: none;
+    }
+
+    .unitech-menu {
+        margin-left: 5px;
+    }
+
+    .unitech-containers-categories1 {
+        grid-template-columns: auto auto auto !important;
+        margin: 0 1rem;
+    }
+
+    .unitech-containers-categories {
+        grid-template-columns: auto auto auto!important;
+        margin: 0 1rem;
+    }
+
+    .box2 {
+        margin-top: 15px;
+    }
+
+    .flex-product {
+        flex-direction: column;
+    }
+
+    .flex-box-details {
+        display: block;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .list-related-tag-unitech {
+        margin: 0 1rem;
+    }
+
+    .list-related-tag-unitech {
+        display: block;
+    }
+
+    .list-related-tag {
+        margin-top: 15px;
+    }
+
+    .Cart-Shop img {
+        width: 100px;
+    }
+
+    .Cart-Shop-2 h1 {
+        font-size: 16px;
+    }
+
+    .unitech-container-cart-button {
+        font-size: 12px;
+    }
+
+    .unitech-container-cart {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-Cart-containers {
+        margin: 15px;
+    }
+
+    .flexCart {
+        grid-template-columns: auto;
+    }
+
+    .Label-container {
+        font-size: 13px;
+    }
+
+    .menuMobile-dashboards {
+        position: relative;
+        display: block;
+    }
+
+    .menu__button {
+        background: red;
+        border: none;
+        position: relative;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .menu__list {
+        position: fixed;
+        bottom: 0;
+        z-index: 4;
+        left: 0;
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 100%;
+        transition: max-height 0.3s ease;
+        overflow: hidden;
+    }
+
+    .menu__item {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+
+    .mobile-reponsive-menuleft {
+        display: none;
+    }
+
+    .unitech-headerleft-container{
+        display: none;
+    }
+
+    .unitech-container-main-dashboard{
+        border-radius: 0%;
+    }
+
+    .header-left-dashboard{
+        flex-direction: column-reverse;
+    }
+
+    .Cart-reponsive {
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .unitech-sale-couter p {
+        white-space: nowrap;
+    }
+
+    .unitech-sale-couter h1 {
+        font-size: 24px;
+    }
+
+    .mobile-reponsive-menuleft {
+        display: none;
+    }
+
+    .unitech-sale-container {
+        margin: 0 1rem;
+    }
+
+    .unitech-container-shop-list {
+        margin: 0 1rem;
+    }
+
+}
